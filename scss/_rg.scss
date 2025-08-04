@@ -1,0 +1,13 @@
+.addons {
+  text-align: left !important;
+
+  &.btn-outline-info.active,
+  &.btn-outline-info:hover {
+    background-color: #1064ff !important;
+    color: white !important;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

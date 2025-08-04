@@ -1,0 +1,80 @@
+/* ------------------- */
+/* Custom Properties   */
+/* ------------------- */
+
+:root {
+  /* colors */
+  --clr-primary: 230 35% 7%;
+  --clr-secondary: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+
+  /* font family  */
+  --ff-sans-serif: "Sora", sans-serif;
+
+  /* font-sizes */
+  --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
+  --fs-800: 3.5rem;
+  --fs-700: 1.5rem;
+  --fs-600: 1rem;
+  --fs-500: 1rem;
+  --fs-400: 0.9375rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+
+}
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 400;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-sans-serif);
+  font-weight: 400;
+}
+
+.heading-bold {
+  font-weight: 600;
+}
+.form-control {
+  font-size: 15px;
+}

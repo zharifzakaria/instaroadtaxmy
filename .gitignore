@@ -1,0 +1,27 @@
+# Environment files - NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Documentation and assets
+docs.txt
+icons/
+reg documents/
+assets/fontawesome-free-5.15.4-web
+
+# IDE and development files
+.vscode/
+Screenshot 2022-03-22 153832.png
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
